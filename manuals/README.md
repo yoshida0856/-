@@ -1,8 +1,8 @@
 # 僕の資産戦略を、この一冊に。
 
-## 現行レビュー版 v4.4
+## 現行レビュー版 v4.5
 
-[PDFをダウンロード（横型５ページ・約1.6MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v4.4.pdf)
+[PDFをダウンロード（横型５ページ・約1.6MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v4.5.pdf)
 
 配布時の案内に合わせて、本人の実際の資産配分・注目銘柄候補・実際に利用するBASISを中心に再構成しました。
 
@@ -14,11 +14,11 @@
 
 銘柄は依頼に応じて編集上選定した候補で、本人の保有・推奨を示しません。独自情報・非公開情報ではありません。運用期間・元本・損益・出金実績の具体値は未提供で、創作していません。収益の安定性を保証する内容ではありません。候補銘柄は配布前に本人による最終確認を想定したレビュー案です。
 
-![表紙](previews/v4-cover.png)
+![表紙](previews/v4-5-cover.png)
 
-![資産配分](previews/v4-4-allocation.png)
+![資産配分](previews/v4-5-allocation.png)
 
-![注目銘柄候補](previews/v4-watchlist.png)
+![注目銘柄候補](previews/v4-5-watchlist.png)
 
 ## 確認資料
 
@@ -31,9 +31,9 @@
 
 BASISの条件は2026年10月11日取得の資料を参照。PAXG・Chainlinkの公式説明は2026年10月12日に取得。実際の安全性・収益性・日本での必要な登録の独立検証ではありません。
 
-![BASISの訴求](previews/v4-2-appeal.png)
+![BASISの訴求](previews/v4-5-fees.png)
 
-![始め方](previews/v4-1-getting-started.png)
+![始め方](previews/v4-5-routes.png)
 
 ４ページ目は「持っているBTCを運用にも活かす」を主題に変更。手数料の説明を「運用利益に対する手数料20％」とし、実行コスト控除後の利益１万円なら手数料2,000円・分配8,000円という仮の例を追加しています。
 
@@ -41,7 +41,7 @@ BASISの条件は2026年10月11日取得の資料を参照。PAXG・Chainlinkの
 
 ５ページ目にCoincheck・MEXC・BASISの役割別の紹介導線を掲載し、BASISの開始手順も保持しました。
 
-![登録案内](previews/v4-3-registration-routes.png)
+![登録案内](previews/v4-5-routes.png)
 
 - Coincheck：https://campaign.coincheck.com/invitation?code=RzLuJLQ
 - MEXC：https://promote.mexc.com/a/VlM5ZfOs
@@ -55,7 +55,11 @@ MEXCは日本居住者向けのため無条件の推奨として扱わず、規�
 
 v4.4では配分ページ下部のグレーの説明文を削除し、緑の注記を12ptで「※全員に同じ割合を勧めるモデルではありません。」に変更しました。
 
+v4.5では上部の小さな英語ラベルと注目銘柄の外部リンクを削除しました。一般的な注意書きは最終ページへ集約し、Coincheck条件・紹介関係のフッター２行は削除。BASISの費用・解除条件を３項目の平易な説明に変更しました。５ページ目は白背景・淡色カードにし、公式ロゴを各サービス名の右隣に配置しています。
+
 ## 過去版
+
+- [v4.4：配分ページの注記修正](basis-manual-v4.4.pdf)
 
 - [v4.3：３サービスの紹介案内](basis-manual-v4.3.pdf)
 
@@ -70,4 +74,4 @@ v4.4では配分ページ下部のグレーの説明文を削除し、緑の注�
 
 ## 修正用ソース
 
-`source/design_v4_4.py` に生成用スクリプトを保持しています。再生成にはPython・PyMuPDF・Noto Sans CJKの通常体と太字が必要です。レビュー用PDFはページ画像版で、リンクを保持しています。
+`source/design_v4_5.py` に生成用スクリプトを保持しています。再生成にはPython・PyMuPDF・Noto Sans CJKの通常体と太字が必要です。レビュー用PDFはページ画像版で、リンクを保持しています。
