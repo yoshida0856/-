@@ -1,8 +1,8 @@
 # 僕の資産戦略を、この一冊に。
 
-## 現行レビュー版 v4.3
+## 現行レビュー版 v4.4
 
-[PDFをダウンロード（横型５ページ・約1.7MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v4.3.pdf)
+[PDFをダウンロード（横型５ページ・約1.6MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v4.4.pdf)
 
 配布時の案内に合わせて、本人の実際の資産配分・注目銘柄候補・実際に利用するBASISを中心に再構成しました。
 
@@ -16,7 +16,7 @@
 
 ![表紙](previews/v4-cover.png)
 
-![資産配分](previews/v4-allocation.png)
+![資産配分](previews/v4-4-allocation.png)
 
 ![注目銘柄候補](previews/v4-watchlist.png)
 
@@ -53,7 +53,11 @@ MEXCは日本居住者向けのため無条件の推奨として扱わず、規�
 
 紹介リンクには利益相反の簡潔な開示を付けています。別のアフィリエイト案件への切替は比較情報がなく推奨していません。
 
+v4.4では配分ページ下部のグレーの説明文を削除し、緑の注記を12ptで「※全員に同じ割合を勧めるモデルではありません。」に変更しました。
+
 ## 過去版
+
+- [v4.3：３サービスの紹介案内](basis-manual-v4.3.pdf)
 
 - [v4.2：BASIS訴求と手数料説明](basis-manual-v4.2.pdf)
 
@@ -66,4 +70,4 @@ MEXCは日本居住者向けのため無条件の推奨として扱わず、規�
 
 ## 修正用ソース
 
-`source/design_v4_3.py` に生成用スクリプトを保持しています。再生成にはPython・PyMuPDF・Noto Sans CJKの通常体と太字が必要です。レビュー用PDFはページ画像版で、リンクを保持しています。
+`source/design_v4_4.py` に生成用スクリプトを保持しています。再生成にはPython・PyMuPDF・Noto Sans CJKの通常体と太字が必要です。レビュー用PDFはページ画像版で、リンクを保持しています。
