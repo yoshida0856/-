@@ -1,23 +1,41 @@
-# 資産防衛と運用の実践ガイド
+# 僕の資産戦略を、この一冊に。
 
-## 現行レビュー版 v2.0
+## 現行レビュー版 v4.0
 
-[PDFをダウンロード（横型13ページ・約4.2MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v2.0.pdf)
+[PDFをダウンロード（横型５ページ・約1.5MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v4.0.pdf)
 
-濃紺・ゴールド・青緑の配色、図解、比較カード、手順、登録ボタンを使って全面的に再構成したレビュー版です。内容・デザインとも修正可能です。
+配布時の案内に合わせて、本人の実際の資産配分・注目銘柄候補・実際に利用するBASISを中心に再構成しました。
 
-![表紙](previews/v2-cover.png)
+1. 表紙
+2. 本人申告の現在の資産配分（2026年10月12日確認）
+3. 公開情報から選んだPAXG・LINKの研究候補
+4. 本人が利用すると申告したBASISの仕組みと条件
+5. 公式資料と紹介登録ページへの案内
 
-![BASISの資金移動](previews/v2-asset-flow.png)
+銘柄は依頼に応じて編集上選定した候補で、本人の保有・推奨を示しません。独自情報・非公開情報ではありません。運用期間・元本・損益・出金実績の具体値は未提供で、創作していません。収益の安定性を保証する内容ではありません。候補銘柄は配布前に本人による最終確認を想定したレビュー案です。
 
-![登録案内](previews/v2-registration.png)
+![表紙](previews/v4-cover.png)
 
-BASISの公式ドキュメントを2026年10月11日に取得し、対応資産・手数料・成功報酬・出金待機期間等の記載を反映しました。資料の末尾にクリック可能な確認先を掲載しています。公式説明の要約であり、運用実績や日本での必要な登録状況の独立検証ではありません。
+![資産配分](previews/v4-allocation.png)
 
-## 前版
+![注目銘柄候補](previews/v4-watchlist.png)
 
-[v1.2（縦型12ページ）](basis-manual-v1.2.pdf)
+## 確認資料
+
+- PAXG発行体：https://www.paxos.com/paxgold
+- Chainlink公式：https://docs.chain.link/getting-started/conceptual-overview
+- BASIS：https://docs.basis.pro/
+- 成功報酬：https://docs.basis.pro/economics-and-rewards/performance-fee-mechanics
+- 解除：https://docs.basis.pro/economics-and-rewards/unstaking-and-7-day-rule
+- リスク：https://docs.basis.pro/risk-safety-and-asset-protection/risk-disclosure
+
+BASISの条件は2026年10月11日取得の資料を参照。PAXG・Chainlinkの公式説明は2026年10月12日に取得。実際の安全性・収益性・日本での必要な登録の独立検証ではありません。
+
+## 過去版
+
+- [v2.0：横型13ページ](basis-manual-v2.0.pdf)
+- [v1.2：縦型12ページ](basis-manual-v1.2.pdf)
 
 ## 修正用ソース
 
-生成用スクリプトは `source/design_v2.py` に保存しています。再生成にはPython・PyMuPDF・Noto Sans CJKの通常体と太字が必要です。レビュー用PDFは表示の互換性と容量を優先したページ画像版で、リンクは保持しています。
+`source/design_v4.py` に生成用スクリプトを保持しています。再生成にはPython・PyMuPDF・Noto Sans CJKの通常体と太字が必要です。レビュー用PDFはページ画像版で、リンクを保持しています。
