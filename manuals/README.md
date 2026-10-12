@@ -1,8 +1,8 @@
 # 僕の資産戦略を、この一冊に。
 
-## 現行レビュー版 v4.1
+## 現行レビュー版 v4.2
 
-[PDFをダウンロード（横型５ページ・約1.6MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v4.1.pdf)
+[PDFをダウンロード（横型５ページ・約1.6MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v4.2.pdf)
 
 配布時の案内に合わせて、本人の実際の資産配分・注目銘柄候補・実際に利用するBASISを中心に再構成しました。
 
@@ -31,11 +31,15 @@
 
 BASISの条件は2026年10月11日取得の資料を参照。PAXG・Chainlinkの公式説明は2026年10月12日に取得。実際の安全性・収益性・日本での必要な登録の独立検証ではありません。
 
-![BASISの訴求](previews/v4-1-appeal.png)
+![BASISの訴求](previews/v4-2-appeal.png)
 
 ![始め方](previews/v4-1-getting-started.png)
 
+４ページ目は「持っているBTCを運用にも活かす」を主題に変更。手数料の説明を「運用利益に対する手数料20％」とし、実行コスト控除後の利益１万円なら手数料2,000円・分配8,000円という仮の例を追加しています。
+
 ## 過去版
+
+- [v4.1：特徴と始め方](basis-manual-v4.1.pdf)
 
 - [v4.0：個人戦略５ページ版](basis-manual-v4.0.pdf)
 
@@ -44,4 +48,4 @@ BASISの条件は2026年10月11日取得の資料を参照。PAXG・Chainlinkの
 
 ## 修正用ソース
 
-`source/design_v4_1.py` に生成用スクリプトを保持しています。再生成にはPython・PyMuPDF・Noto Sans CJKの通常体と太字が必要です。レビュー用PDFはページ画像版で、リンクを保持しています。
+`source/design_v4_2.py` に生成用スクリプトを保持しています。再生成にはPython・PyMuPDF・Noto Sans CJKの通常体と太字が必要です。レビュー用PDFはページ画像版で、リンクを保持しています。
