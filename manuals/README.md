@@ -1,6 +1,34 @@
 # 僕の資産戦略を、この一冊に。
 
-## 現行レビュー版 v4.5
+## 現行版 v5.0
+
+[PDFをダウンロード（横型５ページ・約2.54MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v5.0.pdf)
+
+2026年10月15日作成。白・ミント・水色の装飾、資産を連想できるアイコン、２行に収めた「持っているBTCを、運用（ステーキング）にも活かす。」の見出しを反映しました。５ページはそれぞれ独立しており、一覧画像ではありません。
+
+1. 表紙：資産配分表・注目銘柄・実際に使う運用方法
+2. 本人申告の資産配分：現金45%、金20%、PSLV5%、BTC15%、XRP10%、ETH5%
+3. PAXG・LINKの比較・研究用候補（外部リンクなし）
+4. BASISの開始の流れ・期間・出金条件・費用
+5. 始め方・公式ロゴ・登録ボタン・まとめた注意事項
+
+年率・利回り・複利の数値は未確認のため掲載していません。利益１万円の分配例も掲載していません。具体的な本人の運用実績は創作していません。
+
+PDF最終ページの登録ボタン：
+
+- Coincheck：https://campaign.coincheck.com/invitation?code=RzLuJLQ
+- MEXC：https://promote.mexc.com/a/VlM5ZfOs
+- BASIS：https://basis.pro/register/IUMS4759
+
+修正用スクリプトは `source/build_v5.py`、ページ画像は `source/v5-images/`、公式ロゴは `source/brand-assets/` に保存しています。Python・PyMuPDF・Pillowで再生成できます。
+
+```sh
+python manuals/source/build_v5.py
+```
+
+本文は画像として配置し、登録リンクと目次はPDFに設定しています。BASISの条件は以前取得した資料に基づくもので、今回新たに最新の利回りを確認したものではありません。
+
+## 旧版 v4.5 の記録（以下は旧版の内容）
 
 [PDFをダウンロード（横型５ページ・約1.6MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v4.5.pdf)
 
