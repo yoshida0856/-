@@ -1,6 +1,14 @@
 # 僕の資産戦略を、この一冊に。
 
-## 現行版 v5.0
+## 現行版 v5.1
+
+[修正版PDFをダウンロード（横型５ページ）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v5.1.pdf)
+
+２ページ目に「配分の考え方：現金は下落時に動ける余力。金・銀で分散し、暗号資産で成長を狙う。」を追加しました。配分自体は変更していません。５ページ目のMEXCの警告文を依頼により削除しました。登録リンクと公式ロゴを維持しています。
+
+再生成用スクリプト：`source/build_v5_1.py`。ページ画像：`source/v5-1-images/`。
+
+## 旧版 v5.0
 
 [PDFをダウンロード（横型５ページ・約2.54MB）](https://github.com/yoshida0856/-/raw/refs/heads/main/manuals/basis-manual-v5.0.pdf)
 
